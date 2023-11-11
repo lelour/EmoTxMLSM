@@ -1,5 +1,5 @@
 <div align="center">
-    <h1> :movie_camera: EmoTxMLSM Enable Machines to Understand Human Emotions and Mental States<br>
+    <h1>EmoTxMLSM Enable Machines to Understand Human Emotions and Mental States<br>
     <a href="https://img.shields.io/badge/python-3.6-blue"><img src="https://img.shields.io/badge/python-3.6-blue"></a>
     <a href="https://img.shields.io/badge/made_with-pytorch-red"><img src="https://img.shields.io/badge/made_with-pytorch-red"></a>
     <a href="https://img.shields.io/badge/dataset-MovieGraphs-orange"><img src="https://img.shields.io/badge/dataset-MovieGraphs-orange"></a>
@@ -13,13 +13,9 @@
     3. [Update the config template](#book-create-the-configyaml)
 3. [Feature Extraction](#bomb-feature-extraction)
 4. [Train EmoTx with different configurations!](#weight_lifting-train)
-5. [Download](#mag-download)
-    1. [EmoTx pre-trained weights](#rocket-emotx-pre-trained-weights)
-    2. [Pre-trained feature backbones](#open_hands-pre-trained-feature-backbones)
-6. [Bibtex](#round_pushpin-cite)
 
 ## :robot: About
-This is the official code repository for CVPR-2023 accepted paper ["How you feelin'? Learning Emotions and Mental States in Movie Scenes"](https://arxiv.org/abs/2304.05634). This repository contains the implementation of EmoTx, a Transformer-based model designed to predict emotions and mental states at both the scene and character levels. Our model leverages multiple modalities, including visual, facial, and language features, to capture a comprehensive understanding of emotions in complex movie environments. Additionally, we provide the pre-trained weights for EmoTx and all the pre-trained feature backbones used in this project. We also provide the extracted features for scene (full frame), character faces and subtitle from MovieGraphs dataset.
+This is the code repository for EmoTxMLSM, my project for CS577 in IIT on 2023 Autumn. Contained within this repository is the implementation of EmoTxMLSM, a Transformer-driven model crafted to forecast emotions and mental states across both scene and character scopes. My model harnesses a variety of modalities such as visual, facial, and language features to encompass a holistic comprehension of emotions within intricate cinematic settings. Furthermore, I furnish the extracted features encompassing full-frame scenes, character facial expressions, and subtitle data sourced from the MovieGraphs dataset.
 <br>
 
 ## :toolbox: Setting up the repository
