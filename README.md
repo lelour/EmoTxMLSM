@@ -85,7 +85,7 @@ Refer the full `config_base.yaml` for the default parameter configuration.
 Follow the instructions in [feature_extractors/README.md](feature_extractors/README.md) to extract required features from MovieGraphs dataset. Note that we have already provided the pre-extracted features above and therefore you need not extract the features again.
 
 ## :weight_lifting: Train
-After extracting the features and creating the config, you can train EmoTxMLSM on a 12GB GPU!<br>
+After extracting the features and creating the config, you can train EmoTxMLSM on a NVIDIA V100 GPU!<br>
 You can also use the pre-trained weights provided in the [Download](#mag-download) section.<br>
 Note: the `Eval_mAP: [[A,B], C]` in log line (printed during training) represents the char_mAP, scene_mAP and average of both respectively.<br>
 Note: it is recommended to use [wandb](https://wandb.ai)<br>
