@@ -1,0 +1,99 @@
+Before train:
+ eval_loss: 1.2506991025584597 | eval_mAPs: [0.0, 0.11557624516182084]
+Starting model training
+Epoch: 1 | Train_Loss: 1.151618968675005 | Eval_Loss: 1.2677891548927054 | Train_mAP: 0.04972886578087033 | Eval_mAP: [[0.0, 0.13008365276504527], 0.06504182638252264] | Total time taken: 70.17843246459961
+New best eval_mAP_scene: 0.13008365276504527
+New best eval_mAP_char: 0.0
+New best eval_mAP_avg: 0.06504182638252264
+New best eval_mAP_gm: 0.0
+Epoch: 2 | Train_Loss: 1.1445976566947949 | Eval_Loss: 1.2602356115294067 | Train_mAP: 0.0558088771537279 | Eval_mAP: [[0.0, 0.13952835310374834], 0.06976417655187417] | Total time taken: 68.49494647979736
+New best eval_mAP_scene: 0.13952835310374834
+New best eval_mAP_char: 0.0
+New best eval_mAP_avg: 0.06976417655187417
+New best eval_mAP_gm: 0.0
+Epoch: 3 | Train_Loss: 1.1389258883971372 | Eval_Loss: 1.261351119050662 | Train_mAP: 0.06156522875326299 | Eval_mAP: [[0.0, 0.14421011303127174], 0.07210505651563587] | Total time taken: 68.46735835075378
+New best eval_mAP_scene: 0.14421011303127174
+New best eval_mAP_char: 0.0
+New best eval_mAP_avg: 0.07210505651563587
+New best eval_mAP_gm: 0.0
+Epoch: 4 | Train_Loss: 1.1329882745424749 | Eval_Loss: 1.2616105740359724 | Train_mAP: 0.06647731678328793 | Eval_mAP: [[0.0, 0.14839098026576364], 0.07419549013288182] | Total time taken: 70.17389369010925
+New best eval_mAP_scene: 0.14839098026576364
+New best eval_mAP_char: 0.0
+New best eval_mAP_avg: 0.07419549013288182
+New best eval_mAP_gm: 0.0
+Epoch: 5 | Train_Loss: 1.1288586672768182 | Eval_Loss: 1.2464523987662524 | Train_mAP: 0.06962925962597635 | Eval_mAP: [[0.0, 0.15686395986898502], 0.07843197993449251] | Total time taken: 68.93642330169678
+New best eval_mAP_scene: 0.15686395986898502
+New best eval_mAP_char: 0.0
+New best eval_mAP_avg: 0.07843197993449251
+New best eval_mAP_gm: 0.0
+Epoch: 6 | Train_Loss: 1.1236957737081024 | Eval_Loss: 1.2452111426024637 | Train_mAP: 0.07295217845026739 | Eval_mAP: [[0.0, 0.15780136119786767], 0.07890068059893383] | Total time taken: 72.09289956092834
+New best eval_mAP_scene: 0.15780136119786767
+New best eval_mAP_char: 0.0
+New best eval_mAP_avg: 0.07890068059893383
+New best eval_mAP_gm: 0.0
+Epoch: 7 | Train_Loss: 1.1190946314571033 | Eval_Loss: 1.2431429467062944 | Train_mAP: 0.07652350944528993 | Eval_mAP: [[0.0, 0.15986784755680444], 0.07993392377840222] | Total time taken: 68.09112429618835
+New best eval_mAP_scene: 0.15986784755680444
+New best eval_mAP_char: 0.0
+New best eval_mAP_avg: 0.07993392377840222
+New best eval_mAP_gm: 0.0
+Epoch: 8 | Train_Loss: 1.1148194364791726 | Eval_Loss: 1.2416182524663677 | Train_mAP: 0.07843498796028141 | Eval_mAP: [[0.0, 0.1613695562650231], 0.08068477813251156] | Total time taken: 70.01803946495056
+New best eval_mAP_scene: 0.1613695562650231
+New best eval_mAP_char: 0.0
+New best eval_mAP_avg: 0.08068477813251156
+New best eval_mAP_gm: 0.0
+Epoch: 9 | Train_Loss: 1.110788667451214 | Eval_Loss: 1.2427045369378735 | Train_mAP: 0.08010465268161392 | Eval_mAP: [[0.0, 0.16140949565979434], 0.08070474782989717] | Total time taken: 69.31411457061768
+New best eval_mAP_scene: 0.16140949565979434
+New best eval_mAP_char: 0.0
+New best eval_mAP_avg: 0.08070474782989717
+New best eval_mAP_gm: 0.0
+Epoch: 10 | Train_Loss: 1.106175232254017 | Eval_Loss: 1.2423727390717487 | Train_mAP: 0.08197302320854442 | Eval_mAP: [[0.0, 0.16219201689270651], 0.08109600844635326] | Total time taken: 68.6825647354126
+New best eval_mAP_scene: 0.16219201689270651
+New best eval_mAP_char: 0.0
+New best eval_mAP_avg: 0.08109600844635326
+New best eval_mAP_gm: 0.0
+Epoch: 11 | Train_Loss: 1.1026455332474545 | Eval_Loss: 1.2386375294336058 | Train_mAP: 0.083339265925617 | Eval_mAP: [[0.0, 0.16409420460597698], 0.08204710230298849] | Total time taken: 70.6685061454773
+New best eval_mAP_scene: 0.16409420460597698
+New best eval_mAP_char: 0.0
+New best eval_mAP_avg: 0.08204710230298849
+New best eval_mAP_gm: 0.0
+Epoch: 12 | Train_Loss: 1.0994630216543446 | Eval_Loss: 1.2389214307742011 | Train_mAP: 0.08433770619427916 | Eval_mAP: [[0.0, 0.16381057656978693], 0.08190528828489346] | Total time taken: 72.96917200088501
+New best eval_mAP_char: 0.0
+New best eval_mAP_gm: 0.0
+Epoch: 13 | Train_Loss: 1.0957448219647747 | Eval_Loss: 1.2430145817335643 | Train_mAP: 0.08587094307754609 | Eval_mAP: [[0.0, 0.16413065599056284], 0.08206532799528142] | Total time taken: 69.69380497932434
+New best eval_mAP_scene: 0.16413065599056284
+New best eval_mAP_char: 0.0
+New best eval_mAP_avg: 0.08206532799528142
+New best eval_mAP_gm: 0.0
+Epoch: 14 | Train_Loss: 1.09282581817457 | Eval_Loss: 1.23247085631726 | Train_mAP: 0.08743591214441236 | Eval_mAP: [[0.0, 0.1651045954770468], 0.0825522977385234] | Total time taken: 70.63833260536194
+New best eval_mAP_scene: 0.1651045954770468
+New best eval_mAP_char: 0.0
+New best eval_mAP_avg: 0.0825522977385234
+New best eval_mAP_gm: 0.0
+Epoch: 15 | Train_Loss: 1.0892173632156084 | Eval_Loss: 1.233873712517137 | Train_mAP: 0.08822945615819407 | Eval_mAP: [[0.0, 0.16513884599327802], 0.08256942299663901] | Total time taken: 70.25389528274536
+New best eval_mAP_scene: 0.16513884599327802
+New best eval_mAP_char: 0.0
+New best eval_mAP_avg: 0.08256942299663901
+New best eval_mAP_gm: 0.0
+Epoch: 16 | Train_Loss: 1.086125466199346 | Eval_Loss: 1.2361695053241948 | Train_mAP: 0.08896336937741287 | Eval_mAP: [[0.0, 0.16539161820719261], 0.08269580910359631] | Total time taken: 69.6098620891571
+New best eval_mAP_scene: 0.16539161820719261
+New best eval_mAP_char: 0.0
+New best eval_mAP_avg: 0.08269580910359631
+New best eval_mAP_gm: 0.0
+Epoch: 17 | Train_Loss: 1.0831250656060523 | Eval_Loss: 1.2331887128913954 | Train_mAP: 0.09021561904567955 | Eval_mAP: [[0.0, 0.16652817855985166], 0.08326408927992583] | Total time taken: 70.98062467575073
+New best eval_mAP_scene: 0.16652817855985166
+New best eval_mAP_char: 0.0
+New best eval_mAP_avg: 0.08326408927992583
+New best eval_mAP_gm: 0.0
+Epoch: 18 | Train_Loss: 1.0807142145542317 | Eval_Loss: 1.234528157303848 | Train_mAP: 0.0913525108771792 | Eval_mAP: [[0.0, 0.16542763968726384], 0.08271381984363192] | Total time taken: 72.98243236541748
+New best eval_mAP_char: 0.0
+New best eval_mAP_gm: 0.0
+Epoch: 19 | Train_Loss: 1.0780943646663572 | Eval_Loss: 1.2298352163921238 | Train_mAP: 0.09153375224655744 | Eval_mAP: [[0.0, 0.16715465543919436], 0.08357732771959718] | Total time taken: 70.20915484428406
+New best eval_mAP_scene: 0.16715465543919436
+New best eval_mAP_char: 0.0
+New best eval_mAP_avg: 0.08357732771959718
+New best eval_mAP_gm: 0.0
+Epoch: 20 | Train_Loss: 1.075893046785908 | Eval_Loss: 1.2259459623588784 | Train_mAP: 0.09194586202769164 | Eval_mAP: [[0.0, 0.1673734527140736], 0.0836867263570368] | Total time taken: 75.41434407234192
+New best eval_mAP_scene: 0.1673734527140736
+New best eval_mAP_char: 0.0
+New best eval_mAP_avg: 0.0836867263570368
+New best eval_mAP_gm: 0.0

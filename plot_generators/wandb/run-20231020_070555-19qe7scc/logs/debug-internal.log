@@ -1,0 +1,68 @@
+2023-10-20 07:05:57,558 INFO    MainThread:368896 [internal.py:wandb_internal():93] W&B internal server running at pid: 368896, started at: 2023-10-20 07:05:57.558433
+2023-10-20 07:05:57,561 INFO    WriterThread:368896 [datastore.py:open_for_write():75] open: /home/powerop/work/dense/EmoTx/EmoTx-CVPR2023/plot_generators/wandb/run-20231020_070555-19qe7scc/run-19qe7scc.wandb
+2023-10-20 07:05:57,564 DEBUG   SenderThread:368896 [sender.py:send():236] send: header
+2023-10-20 07:05:57,564 DEBUG   SenderThread:368896 [sender.py:send():236] send: run
+2023-10-20 07:06:26,074 DEBUG   HandlerThread:368896 [handler.py:handle_request():140] handle_request: shutdown
+2023-10-20 07:06:26,075 INFO    HandlerThread:368896 [handler.py:finish():806] shutting down handler
+2023-10-20 07:06:26,567 INFO    WriterThread:368896 [datastore.py:close():279] close: /home/powerop/work/dense/EmoTx/EmoTx-CVPR2023/plot_generators/wandb/run-20231020_070555-19qe7scc/run-19qe7scc.wandb
+2023-10-20 07:06:31,326 ERROR   SenderThread:368896 [retry.py:__call__():132] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/powerop/.local/lib/python3.6/site-packages/urllib3/connection.py", line 169, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/powerop/.local/lib/python3.6/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/home/powerop/.local/lib/python3.6/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/powerop/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/home/powerop/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/home/powerop/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/home/powerop/.local/lib/python3.6/site-packages/urllib3/connection.py", line 352, in connect
+    conn = self._new_conn()
+  File "/home/powerop/.local/lib/python3.6/site-packages/urllib3/connection.py", line 176, in _new_conn
+    % (self.host, self.timeout),
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7fc95a2b9780>, 'Connection to api.wandb.ai timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/powerop/.local/lib/python3.6/site-packages/requests/adapters.py", line 450, in send
+    timeout=timeout
+  File "/home/powerop/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/powerop/.local/lib/python3.6/site-packages/urllib3/util/retry.py", line 573, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fc95a2b9780>, 'Connection to api.wandb.ai timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/powerop/.local/lib/python3.6/site-packages/wandb/sdk/lib/retry.py", line 108, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/powerop/.local/lib/python3.6/site-packages/wandb/sdk/internal/internal_api.py", line 158, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/powerop/.local/lib/python3.6/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/powerop/.local/lib/python3.6/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/powerop/.local/lib/python3.6/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/powerop/.local/lib/python3.6/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/powerop/.local/lib/python3.6/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/powerop/.local/lib/python3.6/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/powerop/.local/lib/python3.6/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/powerop/.local/lib/python3.6/site-packages/requests/adapters.py", line 507, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fc95a2b9780>, 'Connection to api.wandb.ai timed out. (connect timeout=10)'))
+2023-10-27 07:08:44,585 INFO    MainThread:368896 [internal.py:handle_exit():80] Internal process exited

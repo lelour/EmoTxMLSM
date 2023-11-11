@@ -1,0 +1,29 @@
+{
+    "os": "Linux-4.19.118-1.el7.centos.x86_64-x86_64-with-debian-stretch-sid",
+    "python": "3.6.5",
+    "heartbeatAt": "2023-10-25T23:32:12.115487",
+    "startedAt": "2023-10-25T23:32:09.941925",
+    "docker": null,
+    "gpu": "Tesla V100-PCIE-32GB",
+    "gpu_count": 1,
+    "cpu_count": 64,
+    "cuda": "10.1.105",
+    "args": [
+        "scene_feat_type=mvit_v1",
+        "use_char_feats=False",
+        "use_srt_feats=False",
+        "top_k=25"
+    ],
+    "state": "running",
+    "program": "trainer.py",
+    "codePath": "trainer.py",
+    "git": {
+        "remote": "https://github.com/katha-ai/EmoTx-CVPR2023.git",
+        "commit": "561c894dfa0a9041751d7c62e43a8dda20700894"
+    },
+    "email": "li_jian@trip.com",
+    "root": "/home/powerop/work/dense/EmoTx/EmoTx-CVPR2023",
+    "host": "jupyter-with-pytorch-gpu-s40186-0",
+    "username": "powerop",
+    "executable": "/opt/app/conda/bin/python"
+}
