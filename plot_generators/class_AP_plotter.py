@@ -94,22 +94,37 @@ if __name__ == "__main__":
     save_path.mkdir(parents=True, exist_ok=True)
     config = get_config()
     base_path = Path(config["saved_model_path"])/"metadata"
-    model_names = ["Our model with individual CLS",
-                   "Our model with 1 CLS",
+    model_names = ["My EmoTxMLSM with individual CLS",
+                   "EmoTx with individual CLS",
+                   "EmoTx with 1 CLS",
                    "Single Tx Encoder",
                    "MLP (2 Lin)"]
     filenames_t10_camReady = [
-        "EmoTx_t10.pkl",
-        "emotx1cls_t10.pkl",
-        "tx_encoder_scene_t10.pkl",
-        "mlp_scene_t10.pkl",
+        "M5_0.r.t10__scene.pkl",
+        "M4_0.L2.N4.e5.t10.mS.rC.inFrSr.8__scene.pkl",
+        "M3_0.L2.N4.e5.t10.mS.rC.inFrSr.8__scene.pkl",
+        "M2_1.r.t10__scene.pkl",
+        "M1_1.r.t10__scene.pkl",
     ]
     filenames_t25_camReady = [
-        "EmoTx_t25.pkl",
-        "emotx1cls_t25.pkl",
-        "tx_encoder_scene_t25.pkl",
-        "mlp_scene_t25.pkl",
+        "M5_0.r.t25__scene.pkl",
+        "M4_0.L2.N4.e5.t25.mS.rC.inFrSr.8__scene.pkl",
+        "M3_0.L2.N4.e5.t25.mS.rC.inFrSr.8__scene.pkl",
+        "M2_1.r.t25__scene.pkl",
+        "M1_1.r.t25__scene.pkl",
     ]
+#     filenames_t10_camReady = [
+#         "EmoTx_t10.pkl",
+#         "emotx1cls_t10.pkl",
+#         "tx_encoder_scene_t10.pkl",
+#         "mlp_scene_t10.pkl",
+#     ]
+#     filenames_t25_camReady = [
+#         "EmoTx_t25.pkl",
+#         "emotx1cls_t25.pkl",
+#         "tx_encoder_scene_t25.pkl",
+#         "mlp_scene_t25.pkl",
+#     ]
     filenames_emotic_camReady = ["EmoTx_Emotic26.pkl"]
     plot_name_t10 = "t10_APs_sorted.pdf"
     plot_name_t25 = "t25_APs_sorted.pdf"
